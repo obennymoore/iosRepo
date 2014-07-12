@@ -21,6 +21,8 @@
 		C8C6EC1F1970A29A007E88EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C6EC011970A29A007E88EC /* UIKit.framework */; };
 		C8C6EC271970A29A007E88EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8C6EC251970A29A007E88EC /* InfoPlist.strings */; };
 		C8C6EC291970A29A007E88EC /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C6EC281970A29A007E88EC /* test2Tests.m */; };
+		C8C6EC331970A2B5007E88EC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C6EC321970A2B5007E88EC /* CoreData.framework */; };
+		C8C6EC361970A2CB007E88EC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8C6EC341970A2CB007E88EC /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		C8C6EC241970A29A007E88EC /* test2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test2Tests-Info.plist"; sourceTree = "<group>"; };
 		C8C6EC261970A29A007E88EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8C6EC281970A29A007E88EC /* test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2Tests.m; sourceTree = "<group>"; };
+		C8C6EC321970A2B5007E88EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C8C6EC351970A2CB007E88EC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C6EC331970A2B5007E88EC /* CoreData.framework in Frameworks */,
 				C8C6EC001970A29A007E88EC /* CoreGraphics.framework in Frameworks */,
 				C8C6EC021970A29A007E88EC /* UIKit.framework in Frameworks */,
 				C8C6EBFE1970A29A007E88EC /* Foundation.framework in Frameworks */,
@@ -82,6 +87,7 @@
 		C8C6EBF11970A29A007E88EC = {
 			isa = PBXGroup;
 			children = (
+				C8C6EC341970A2CB007E88EC /* Model.xcdatamodeld */,
 				C8C6EC031970A29A007E88EC /* test2 */,
 				C8C6EC221970A29A007E88EC /* test2Tests */,
 				C8C6EBFC1970A29A007E88EC /* Frameworks */,
@@ -101,6 +107,7 @@
 		C8C6EBFC1970A29A007E88EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C8C6EC321970A2B5007E88EC /* CoreData.framework */,
 				C8C6EBFD1970A29A007E88EC /* Foundation.framework */,
 				C8C6EBFF1970A29A007E88EC /* CoreGraphics.framework */,
 				C8C6EC011970A29A007E88EC /* UIKit.framework */,
@@ -252,6 +259,7 @@
 				C8C6EC141970A29A007E88EC /* ViewController.m in Sources */,
 				C8C6EC0E1970A29A007E88EC /* AppDelegate.m in Sources */,
 				C8C6EC0A1970A29A007E88EC /* main.m in Sources */,
+				C8C6EC361970A2CB007E88EC /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +474,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C8C6EC341970A2CB007E88EC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C8C6EC351970A2CB007E88EC /* Model.xcdatamodel */,
+			);
+			currentVersion = C8C6EC351970A2CB007E88EC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C8C6EBF21970A29A007E88EC /* Project object */;
 }

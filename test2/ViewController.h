@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *studentName;
+@property (weak, nonatomic) IBOutlet UILabel *studentMarks;
+- (IBAction)submitButton:(id)sender;
 
 @end
